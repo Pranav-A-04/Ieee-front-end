@@ -4,3 +4,6 @@
 <img width="955" alt="Screenshot 2023-07-26 232137" src="https://github.com/Pranav-A-04/Ieee-front-end/assets/124067673/dce68d7e-40ea-4a0b-978b-9f806fb5c6d3">
 
 <img width="960" alt="Screenshot 2023-07-26 232119" src="https://github.com/Pranav-A-04/Ieee-front-end/assets/124067673/d8892b27-f32c-47b2-952a-5f508c0c2ad7">
+
+
+The webpage is responsive and can fit to small screen sizes. The webpage has an interactive map, and all buttons are fully functional
