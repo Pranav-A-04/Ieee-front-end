@@ -1,0 +1,331 @@
+*{
+    box-sizing: border-box;
+}
+.hide{
+    display: none;
+}
+body{
+    height: 100%;
+    background-image: url(./laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    background-color: black;
+}
+.logo{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    float: left;
+}
+.navbar{
+    padding: 15px;
+    background-color: white;
+}
+.home{
+    padding: 10px;
+    margin-left: 10px;
+    font-size: large;
+    letter-spacing:2px;
+    text-decoration: none;
+    color: black;
+}
+.item{
+    padding: 7px;
+    margin-left: 5px;
+    margin-right: 4px;
+    font-size: medium;
+    text-decoration: none;
+    color: black;
+}
+#dropdown{
+    perspective: 250px;
+    float: left;
+}
+#dropdowncontent{
+    display: block;
+    translate: 40px 0px 10px;
+}
+#closebutt{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.w3-sidebar .w3-bar-block .w3-white .w3-card .w3-animate-right .w3-hide-medium .w3-hide-large{
+    text-align: right;
+}
+
+#sidebar{
+    float: right;
+    width: 160px;
+    height: 290px;
+    background-color: white;
+    color: black;
+    font-family: monospace;
+    font-size:large;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+
+}
+.item2{
+    font-family: monospace;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    text-align: center;   
+    padding: 10px;
+}
+.menuitems{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+}
+#close{
+    font-family: monospace;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+}
+.item2:hover{
+    background-color: lightgrey
+}
+.item1{
+    display: block;
+    padding: 7px;
+    margin-left: 5px;
+    margin-right: 4px;
+    font-size: medium;
+    text-decoration: none;
+    color: white;
+}
+.headdiv{
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 5px;
+    align-self: center;
+    margin-top: 120px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: white
+}
+
+.title{
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.description{
+    font-size: large;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    padding: 30px
+}
+.buttons{
+    text-decoration: none;
+}
+.but1{
+    padding: 7px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    background-color: white;
+    color:black;
+    box-shadow: inset;
+    text-decoration: none;
+}
+.sponsor{
+    align-self: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.abthead{
+    align-items: center;
+    align-self: center;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+.content{
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: medium;
+    line-height: 30px;
+}
+
+.timeline {
+    margin-top: 40px;
+    position: relative;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  /* Container around content */
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid aquamarine;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Place the container to the left */
+.left {
+    right: 50%;
+  }
+  
+.right {
+    left: 50%;
+  }
+  
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+  
+
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  
+  
+.right::after {
+    left: -14px;
+  }
+  
+.left::after {
+    right: -14px;
+  }
+  
+
+.content2 {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+  }
+  
+  
+@media screen and (max-width: 600px) {
+  
+    .timeline::after {
+      left: 31px;
+    }
+  
+
+ .container {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+  
+.container::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+  
+  
+.left::after, .right::after {
+      left: 10px;
+    }
+  
+ 
+.right {
+      left: 0%;
+    }
+  }
+
+#map{
+    margin-top: 40px;
+    height: 350px;
+    width: 50%;
+    margin-right: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 8px;
+    align-self: center;
+    margin-bottom: 60px;
+    float: right;
+    border-color:aquamarine;
+}
+
+.but2{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: white;
+    margin-right: 10px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    background-color: aquamarine;
+    color: black;
+    box-shadow: inset;
+    text-decoration: none;
+    float: left;
+    margin-top: 300px;
+    width: 300px;
+}
